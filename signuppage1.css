@@ -1,0 +1,67 @@
+*{
+    margin: 10;
+    
+     box-sizing: border-box;
+  }
+  body{
+      background-image: url("images.jpg");
+      padding:10px 10px;
+      align-items: center;
+      display: flex;
+     flex-direction: column;
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: none;
+     
+    }
+    h1{
+      border: 1px salmon ;
+     border-radius: 18px;
+      
+     
+    }
+    .container{
+      
+     border-radius: 8px;
+      padding: 10px;
+      background-color:rgb(55, 62, 62);
+      color:white;/*useen,email,pswd color */
+      padding-right: 50px;
+      padding-left: 60px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      font-size: larger;
+      font-weight: 400;
+    
+  
+    }
+    input[type="email"],
+    input[type="text"]{
+      width:100%;
+      padding: 10px ;
+      border: none;
+     /* color:#333 ; */
+     
+     margin-top: 15px;
+     border-bottom: 2px solid rgb(184, 66, 66);
+      
+  
+  
+    }
+  button{
+    padding: 10px;
+    background:orangered;
+    margin-bottom: 30px;
+    border-radius:20px;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+    
+     
+  
+      
+    
+  
